@@ -47,8 +47,4 @@ class Home extends CI_Controller
     {
         $this->load->view('create');
     }
-    public function list()
-    {
-        $this->load->view('list');
-    }
 }
